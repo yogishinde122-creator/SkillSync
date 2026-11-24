@@ -23,10 +23,10 @@ SkillSync is a PHP and MySQL-based web platform designed to connect students, sk
 
 📁 Project Structure
 
-- "Auth/" – Login, Logout and Registration
-- "Company/" – Company Dashboard
-- "Config/" – Database Configuration
-- "Student/" – Student Dashboard, Profile, Applications, Assessments and Certificates
+- "auth/" – Login, Logout and Registration
+- "company/" – Company Dashboard
+- "db.example.php" – Template for the database configuration
+- "student/" – Student Dashboard, Profile, Applications, Assessments and Certificates
 - "api_chat.php" – Chat API endpoint
 - "index.php" – Main entry point
 
@@ -36,9 +36,17 @@ SkillSync is a PHP and MySQL-based web platform designed to connect students, sk
 2. Clone or download this repository.
 3. Place the project inside the "htdocs" folder.
 4. Create a MySQL database.
-5. Configure database credentials in "Config/db.php".
+5. Copy "db.example.php" to "config/db.php" (create the "config" folder) and enter your own database credentials.
 6. Start Apache and MySQL from XAMPP.
 7. Open the project in your browser using "http://localhost/SkillSync/".
+
+📸 Screenshots
+
+| | |
+|---|---|
+| ![Home](screenshots/01-Home-Page.png) | ![Student Registration](screenshots/02-Student-Registration.png) |
+| ![Student Dashboard](screenshots/03-Student-Dashboard.png) | ![Company Dashboard](screenshots/04-Company-Dashboard.png) |
+| ![Assessment](screenshots/05-Assessment-Application.png) | |
 
 🎯 Project Objective
 
